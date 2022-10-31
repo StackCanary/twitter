@@ -1,0 +1,82 @@
+.post-wrapper {
+    border: 1px solid rgb(242, 242, 242);
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 10px 0; 
+}
+
+.post-avatar {
+    margin-top: 1px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.post-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.post-content-header > * {
+    flex: 0 0 auto;
+}
+
+.post-content-header-name {
+    font-weight: bold;
+}
+
+.post-content-header-handle, .post-content-header-dot, .post-content-header-date {
+    font-weight: lighter;
+    color: gray;
+}
+
+.post-content-header .css-i4bv87-MuiSvgIcon-root {
+    width: 14px;
+    height: 14px;
+    padding: 4.75px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.post-content-header .css-i4bv87-MuiSvgIcon-root:hover {
+    background-color: lightblue;
+}
+
+/* .post-content-footer {
+    margin-top: 10px;
+} */
+
+.post-content-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: lighter;
+    color: gray;
+}
+
+.post-content-footer-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-content-footer .css-i4bv87-MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.post-content-footer-item-label {
+    padding: 0 2px;
+}
+
+.post-content-footer .css-i4bv87-MuiSvgIcon-root:hover {
+    background-color: lightblue;
+}

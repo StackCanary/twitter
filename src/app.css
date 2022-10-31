@@ -1,0 +1,15 @@
+:root {
+    --twitter-blue: hsl(204, 88%, 53%);
+    --twitter-blue-darker: hsl(204, 88%, 47%);
+    --twitter-light: hsl(204, 88%, 75%);
+    --twitter-lightgrey: rgb(242, 242, 242);
+}
+
+.sidebar-feed-widgets {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto; 
+}

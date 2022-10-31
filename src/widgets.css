@@ -1,0 +1,11 @@
+.widgets {
+    min-width: 200px;
+    padding: 0 20px;
+    outline: 1px solid red;
+}
+
+@media (max-width: 975px) {
+   .widgets {
+    display: none;
+   }
+}

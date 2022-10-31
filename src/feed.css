@@ -1,0 +1,12 @@
+    /* flex: 0 1 600px; */
+.feed {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
