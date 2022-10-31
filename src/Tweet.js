@@ -23,6 +23,9 @@ const Tweet = (props) => {
           <MoreHorizIcon></MoreHorizIcon>
         </div>
         <div className="post-content-tweet">{props.tweet}</div>
+        {props.image && (
+          <img className="post-content-image" src={props.image}></img>
+        )}
         {/* TODO Too much space because of padding around icon */}
         {/* TODO Make the footer more squashed to the left */}
         <div className="post-content-footer">
