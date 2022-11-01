@@ -1,8 +1,10 @@
 :root {
     --twitter-blue: hsl(204, 88%, 53%);
     --twitter-blue-darker: hsl(204, 88%, 47%);
+    --twitter-linkblue: hsl(204, 87%, 58%);
     --twitter-light: hsl(204, 88%, 75%);
     --twitter-lightgrey: rgb(242, 242, 242);
+    --twitter-tilegrey: hsl(180, 14%, 97%);
 }
 
 .sidebar-feed-widgets {

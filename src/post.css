@@ -7,6 +7,12 @@
     padding: 10px 10px 0; 
 }
 
+/* TODO Add delay to colour */
+/* TODO Add to everything with one rule */
+.post-wrapper:hover {
+    background: var(--twitter-lightgrey);
+}
+
 .post-avatar {
     margin-top: 1px;
     padding: 20px;

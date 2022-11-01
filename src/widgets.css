@@ -1,7 +1,82 @@
 .widgets {
-    min-width: 200px;
-    padding: 0 20px;
-    outline: 1px solid red;
+    flex: 0 1 350px;
+    overflow-x: scroll;
+    margin-left: 20px;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid var(--twitter-lightgrey);
+    margin: 0 0 20px 0;
+    background-color: var(--twitter-tilegrey);
+    border-radius: 20px;
+}
+
+.widget-title {
+    padding: 12px 16px 0 16px;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
+
+.widget-tile {
+    padding: 12px 16px 12px 16px;
+    margin: 0;
+}
+
+.widget-tile:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.widget-show-more {
+    font-weight: lighter;
+    color: var(--twitter-linkblue);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.news-header, .news-footer {
+    font-weight: lighter;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.news-content {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wtf-tile {
+    display: flex;
+    gap: 10px;
+}
+
+.wtf-avatar {
+    width: 0;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.wtf-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
+
+.wtf-name {
+    font-weight: bold;
+}
+
+.wtf-handle {
+    font-weight: lighter;
+    color: gray;
 }
 
 @media (max-width: 975px) {
