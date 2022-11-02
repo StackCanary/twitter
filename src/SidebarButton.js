@@ -1,10 +1,13 @@
 import React from "react"
 import CreateIcon from "@mui/icons-material/Create"
+import Button from "./Button"
 
 const SidebarButton = () => {
   return (
     <>
-      <button className="sidebar-tweet-button-large">Tweet</button>
+      <div className="sidebar-tweet-button-large">
+        <Button>Tweet</Button>
+      </div>
       <div className="sidebar-tweet-button-small">
         <CreateIcon></CreateIcon>
       </div>

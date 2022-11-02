@@ -24,18 +24,8 @@
 } */
 
 .tweetbox-tweet-button {
-    all: unset;
-    display: block;
-    color: white;
-    background-color: var(--twitter-blue);
-    padding: 8px 24px;
-    border-radius: 20px;
     cursor: pointer;
-    font-weight: 600;
-    margin-left: auto;
+    display: flex;
+    justify-content: right;
     margin-right: 10px;
-}
-
-.tweetbox-tweet-button:hover {
-    background-color: var(--twitter-blue-darker);
 }

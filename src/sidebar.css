@@ -50,23 +50,6 @@
     background-color: var(--twitter-light);
 }
 
-.sidebar-tweet-button-large {
-    all: unset;
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: var(--twitter-blue);
-    padding: 12px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 700;
-    width: 10rem;
-}
-
-.sidebar-tweet-button-large:hover {
-    background-color: var(--twitter-blue-darker);
-}
-
 /* How do I adjust the size of this damn icon */
 .sidebar-tweet-button-small {
     display: none;
