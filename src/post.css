@@ -13,13 +13,6 @@
     background: var(--twitter-lightgrey);
 }
 
-.post-avatar {
-    margin-top: 1px;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: lightblue;
-}
-
 .post-content-header {
     display: flex;
     align-items: center;

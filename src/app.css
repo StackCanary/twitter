@@ -5,6 +5,7 @@
     --twitter-light: hsl(204, 88%, 75%);
     --twitter-lightgrey: rgb(242, 242, 242);
     --twitter-tilegrey: hsl(180, 14%, 97%);
+    --twitter-black: black;
 }
 
 .sidebar-feed-widgets {

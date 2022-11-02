@@ -6,13 +6,14 @@ import RepeatIcon from "@mui/icons-material/Repeat"
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder"
 import UploadIcon from "@mui/icons-material/Upload"
 import TweetContentFooterItem from "./TweetContentFooterItem"
+import Avatar from "./Avatar"
 import "./post.css"
 
 const Tweet = (props) => {
   return (
     <div className="post-wrapper">
       <div className="post-avatar-wrapper">
-        <div className="post-avatar"></div>
+        <Avatar src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png" />
       </div>
       <div className="post-content-wrapper">
         <div className="post-content-header">

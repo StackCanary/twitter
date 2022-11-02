@@ -8,14 +8,6 @@
     display: flex;
 }
 
-.tweetbox-avatar {
-    width: 0;
-    height: 0;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: lightblue;
-}
-
 .tweetbox-input {
     padding-bottom: 10px;
 }
