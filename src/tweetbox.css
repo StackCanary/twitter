@@ -24,7 +24,6 @@
 } */
 
 .tweetbox-tweet-button {
-    cursor: pointer;
     display: flex;
     justify-content: right;
     margin-right: 10px;

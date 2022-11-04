@@ -9,7 +9,7 @@ import TweetContentFooterItem from "./TweetContentFooterItem"
 import Avatar from "./Avatar"
 import "./post.css"
 
-const Tweet = (props) => {
+const Tweet = ({ name, handle, date, tweet, image }) => {
   return (
     <div className="post-wrapper">
       <div className="post-avatar-wrapper">
@@ -17,16 +17,14 @@ const Tweet = (props) => {
       </div>
       <div className="post-content-wrapper">
         <div className="post-content-header">
-          <span className="post-content-header-name">{props.name}</span>
-          <span className="post-content-header-handle">@{props.handle}</span>
+          <span className="post-content-header-name">{name}</span>
+          <span className="post-content-header-handle">@{handle}</span>
           <span className="post-content-header-dot">·</span>
-          <span className="post-content-header-date">{props.date}</span>
+          <span className="post-content-header-date">{date}</span>
           <MoreHorizIcon></MoreHorizIcon>
         </div>
-        <div className="post-content-tweet">{props.tweet}</div>
-        {props.image && (
-          <img className="post-content-image" src={props.image}></img>
-        )}
+        <div className="post-content-tweet">{tweet}</div>
+        {image && <img className="post-content-image" src={image}></img>}
         {/* TODO Too much space because of padding around icon */}
         {/* TODO Make the footer more squashed to the left */}
         <div className="post-content-footer">

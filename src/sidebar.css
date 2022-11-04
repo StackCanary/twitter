@@ -50,7 +50,6 @@
     background-color: var(--twitter-light);
 }
 
-/* How do I adjust the size of this damn icon */
 .sidebar-tweet-button-small {
     display: none;
 }
@@ -80,8 +79,3 @@
         display: none;
     }
 }
-/*
-.MuiSvgIcon-root {
-    margin: 0;
-}
-*/

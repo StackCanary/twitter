@@ -47,6 +47,10 @@
     background-color: lightblue;
 }
 
+.post-content-wrapper {
+    flex: auto;
+}
+
 .post-content-image {
     display: block;
     max-width: 98%;
