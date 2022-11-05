@@ -30,7 +30,7 @@ const TweetBox = ({ publishTweet }) => {
         ></input>
       </div>
       <div className="tweetbox-tweet-button">
-        <Button size="medium" onClick={storeTweet}>
+        <Button size="medium" onClick={storeTweet} active={tweet.length > 0}>
           Tweet
         </Button>
       </div>
