@@ -1,6 +1,6 @@
 import React from "react"
 import NewsTile from "./NewsTile"
-import WhoToFollowTile from "./WhoToFollowTile"
+import FollowTile from "./FollowTile"
 import Widget from "./widget"
 import "./widgets.css"
 
@@ -14,7 +14,7 @@ const Widgets = () => {
 
       <Widget
         title="Who to follow"
-        tiles={[WhoToFollowTile, WhoToFollowTile, WhoToFollowTile]}
+        tiles={[FollowTile, FollowTile, FollowTile]}
       ></Widget>
     </div>
   )

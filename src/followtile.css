@@ -1,27 +1,20 @@
-.wtf-tile {
+.follow-tile {
     display: flex;
     gap: 10px;
 }
 
-.wtf-avatar {
-    width: 0;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: lightblue;
-}
-
-.wtf-right {
+.follow-tile-suggestion {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: auto;
 }
 
-.wtf-name {
+.follow-tile-suggestion__name {
     font-weight: bold;
 }
 
-.wtf-handle {
+.follow-tile-suggestion__handle {
     font-weight: lighter;
     color: gray;
 }
