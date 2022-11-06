@@ -12,7 +12,7 @@ const PostFooter = () => {
       <PostFooterItem Icon={ChatBubbleIcon} text="10"></PostFooterItem>
       <PostFooterItem Icon={RepeatIcon} text="10"></PostFooterItem>
       <PostFooterItem Icon={FavoriteBorderIcon} text="10"></PostFooterItem>
-      <PostFooterItem Icon={UploadIcon} text=""></PostFooterItem>
+      <PostFooterItem Icon={UploadIcon}></PostFooterItem>
     </div>
   )
 }

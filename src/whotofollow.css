@@ -1,0 +1,27 @@
+.wtf-tile {
+    display: flex;
+    gap: 10px;
+}
+
+.wtf-avatar {
+    width: 0;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.wtf-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
+
+.wtf-name {
+    font-weight: bold;
+}
+
+.wtf-handle {
+    font-weight: lighter;
+    color: gray;
+}

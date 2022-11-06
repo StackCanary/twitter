@@ -1,6 +1,7 @@
 import React from "react"
 import Avatar from "./Avatar"
 import Button from "./Button"
+import "./whotofollow.css"
 
 const WhoToFollowTile = () => {
   return (

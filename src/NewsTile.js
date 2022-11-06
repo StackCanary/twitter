@@ -1,4 +1,5 @@
 import React from "react"
+import "./newstile.css"
 
 const NewsTile = () => {
   return (

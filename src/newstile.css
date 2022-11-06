@@ -1,0 +1,11 @@
+.news-header, .news-footer {
+    font-weight: lighter;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.news-content {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
