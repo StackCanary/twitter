@@ -5,7 +5,7 @@ const PostFooterItem = ({ Icon, text }) => {
   return (
     <div className="post-footer-item">
       <Icon className="post-footer-item__icon"></Icon>
-      <span className="post-footer-item__label">{text}</span>
+      {text && <span className="post-footer-item__label">{text}</span>}
     </div>
   )
 }
