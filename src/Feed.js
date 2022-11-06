@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import FeedHeader from "./FeedHeader"
-import Post from "./Tweet"
+import Post from "./Post"
 import TweetBox from "./TweetBox"
 import "./feed.css"
 

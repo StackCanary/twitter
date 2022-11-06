@@ -1,0 +1,19 @@
+.post-footer-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-footer-item__icon {
+    font-size: 20px !important;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.post-footer-item__icon:hover {
+    background-color: lightblue;
+}
+
+.post-footer-item__label {
+    padding: 0 2px;
+}

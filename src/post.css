@@ -24,36 +24,3 @@
     border-radius: 10px;
     margin-top: 10px;
 }
-
-/* .post-content-footer {
-    margin-top: 10px;
-} */
-
-.post-content-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: lighter;
-    color: gray;
-}
-
-.post-content-footer-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.post-content-footer .css-i4bv87-MuiSvgIcon-root {
-    width: 20px;
-    height: 20px;
-    padding: 6px;
-    border-radius: 50%;
-}
-
-.post-content-footer-item-label {
-    padding: 0 2px;
-}
-
-.post-content-footer .css-i4bv87-MuiSvgIcon-root:hover {
-    background-color: lightblue;
-}
