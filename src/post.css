@@ -12,11 +12,11 @@
     background: var(--twitter-lightgrey);
 }
 
-.post-content {
+.post-body {
     flex: auto;
 }
 
-.post-content-image {
+.post-image {
     display: block;
     max-width: 98%;
     max-height: 400px;
