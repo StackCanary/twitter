@@ -1,0 +1,33 @@
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.post-header > * {
+    flex: 0 0 auto;
+}
+
+.post-header__name {
+    font-weight: bold;
+}
+
+.post-header__handle, .post-header__dot, .post-header__date {
+    font-weight: lighter;
+    color: gray;
+}
+
+/* TODO Use something more specific  */
+.post-header .css-i4bv87-MuiSvgIcon-root {
+    font-size: 14px;
+    padding: 4.75px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.post-header .css-i4bv87-MuiSvgIcon-root:hover {
+    background-color: lightblue;
+}

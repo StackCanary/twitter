@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import FeedHeader from "./FeedHeader"
-import Tweet from "./Tweet"
+import Post from "./Tweet"
 import TweetBox from "./TweetBox"
 import "./feed.css"
 
@@ -61,14 +61,14 @@ const Feed = () => {
         .map((tweet, id) => {
           // eslint-disable-next-line react/jsx-key
           return (
-            <Tweet
+            <Post
               key={id}
               name={tweet.name}
               handle={tweet.handle}
               date={tweet.date}
               tweet={tweet.tweet}
               image={tweet.image}
-            ></Tweet>
+            ></Post>
           )
         })}
     </div>

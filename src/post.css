@@ -1,4 +1,4 @@
-.post-wrapper {
+.post {
     border: 1px solid rgb(242, 242, 242);
     border-bottom: none;
     display: flex;
@@ -8,46 +8,11 @@
 }
 
 /* TODO Add delay to colour */
-/* TODO Add to everything with one rule */
-.post-wrapper:hover {
+.post:hover {
     background: var(--twitter-lightgrey);
 }
 
-.post-content-header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-}
-
-.post-content-header > * {
-    flex: 0 0 auto;
-}
-
-.post-content-header-name {
-    font-weight: bold;
-}
-
-.post-content-header-handle, .post-content-header-dot, .post-content-header-date {
-    font-weight: lighter;
-    color: gray;
-}
-
-.post-content-header .css-i4bv87-MuiSvgIcon-root {
-    width: 14px;
-    height: 14px;
-    padding: 4.75px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: 5px;
-}
-
-.post-content-header .css-i4bv87-MuiSvgIcon-root:hover {
-    background-color: lightblue;
-}
-
-.post-content-wrapper {
+.post-content {
     flex: auto;
 }
 
