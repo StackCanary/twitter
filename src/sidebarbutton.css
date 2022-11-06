@@ -1,0 +1,26 @@
+.sidebar__small-tweet-btn {
+    color: white;
+    font-size: 2rem !important;
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--twitter-blue);
+    cursor: pointer;
+}
+
+.sidebar__small-tweet-btn:hover {
+    background-color: var(--twitter-blue-darker);
+}
+
+.sidebar__small-tweet-btn-wrapper--display {
+    display: none;
+}
+
+@media (max-width: 1150px) {
+    .sidebar__small-tweet-btn-wrapper--display {
+        display: initial;
+    }
+
+    .sidebar__large-tweet-btn-wrapper--display {
+        display: none;
+    }
+}

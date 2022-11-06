@@ -6,7 +6,7 @@ import "./app.css"
 
 const App = () => {
   return (
-    <div className="sidebar-feed-widgets">
+    <div className="app">
       <Sidebar></Sidebar>
       <Feed></Feed>
       <Widgets></Widgets>

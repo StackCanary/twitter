@@ -9,7 +9,7 @@
     --twitter-black: black;
 }
 
-.sidebar-feed-widgets {
+.app {
     display: flex;
     gap: 2px;
     justify-content: center;
