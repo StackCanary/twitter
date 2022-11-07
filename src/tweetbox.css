@@ -1,29 +1,22 @@
-.tweetbox-wrapper {
+.tweetbox {
     padding: 10px;
     border: 1px solid var(--twitter-lightgrey);
     margin: 0 0 10px 0;
 }
 
-.tweetbox-input {
+.tweetbox-entry {
     display: flex;
-}
-
-.tweetbox-input {
     padding-bottom: 10px;
 }
 
-.tweetbox-input input {
+.tweetbox-entry__input {
     font-size: 20px;
     flex: 1;
     margin-left: 10px;
     border: none;
 }
 
-/* .tweetbox-content-footer {
-    margin-top: 10px;
-} */
-
-.tweetbox-tweet-button {
+.tweetbox__tweet-button {
     display: flex;
     justify-content: right;
     margin-right: 10px;
