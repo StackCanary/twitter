@@ -3,14 +3,14 @@ import Avatar from "./Avatar"
 import Button from "./Button"
 import "./followtile.css"
 
-const FollowTile = () => {
+const FollowTile = ({ name, handle, src }) => {
   return (
     <div className="follow-tile">
-      <Avatar src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png" />
+      <Avatar src={src} />
       <div className="follow-tile-suggestion">
         <div>
-          <div className="follow-tile-suggestion__name">Lex Fridman</div>
-          <div className="follow-tile-suggestion__handle">@lexfridman</div>
+          <div className="follow-tile-suggestion__name">{name}</div>
+          <div className="follow-tile-suggestion__handle">@{handle}</div>
         </div>
         <Button size="medium" color="black">
           Follow

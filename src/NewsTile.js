@@ -1,15 +1,12 @@
 import React from "react"
 import "./newstile.css"
 
-const NewsTile = () => {
+const NewsTile = ({ header, content, footer }) => {
   return (
     <>
-      <div className="news-header">World news . LIVE</div>
-      <p className="news-content">
-        Lula da Silva is set to become the next president of Brazil after
-        defeating Bolsonaro
-      </p>
-      <div className="news-footer">Trending with Amazon</div>
+      <div className="news-header">{header}</div>
+      <p className="news-content">{content}</p>
+      <div className="news-footer">{footer}</div>
     </>
   )
 }
