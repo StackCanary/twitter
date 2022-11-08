@@ -5,10 +5,12 @@ import PostHeader from "./PostHeader"
 import PostFooter from "./PostFooter"
 import "./post.css"
 
-const Post = ({ name, handle, date, tweet, image }) => {
+const Post = ({ name, handle, avatar, date, tweet, image }) => {
+  console.log(avatar)
+  console.log(name)
   return (
     <div className="post">
-      <Avatar src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png" />
+      <Avatar src={avatar} />
       <div className="post-body">
         <PostHeader name={name} handle={handle} date={date}></PostHeader>
         <div>{tweet}</div>

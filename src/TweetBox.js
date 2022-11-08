@@ -10,9 +10,10 @@ const TweetBox = ({ publishTweet }) => {
     e.preventDefault()
 
     publishTweet({
-      name: "Lex Fridman",
-      handle: "lexfridman",
-      date: "Oct 21",
+      name: "Twitter User",
+      handle: "twitteruser",
+      avatar: "./assets/catavatar.png",
+      date: "Now",
       tweet: tweet,
     })
 
@@ -22,7 +23,7 @@ const TweetBox = ({ publishTweet }) => {
   return (
     <div className="tweetbox">
       <div className="tweetbox-entry">
-        <Avatar src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png" />
+        <Avatar src="./assets/catavatar.png" />
         <input
           className="tweetbox-entry__input"
           placeholder="What's happening?"
