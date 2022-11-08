@@ -40,16 +40,20 @@ const Widgets = () => {
         title="Who to follow"
         tiles={[FollowTile, FollowTile, FollowTile]}
         props={[
-          { name: "Bill Gates", handle: "BillGates", src: "./assets/bill.jpg" },
+          {
+            name: "Bill Gates",
+            handle: "BillGates",
+            src: require("./assets/bill.jpg").default,
+          },
           {
             name: "Nasa",
             handle: "Nasa",
-            src: "./assets/nasa.jpg",
+            src: require("./assets/nasa.jpg").default,
           },
           {
             name: "Dwayne Johnson",
             handle: "TheRock",
-            src: "./assets/dwayne.jpeg",
+            src: require("./assets/dwayne.jpeg").default,
           },
         ]}
       ></Widget>

@@ -8,25 +8,25 @@ const defaultTweets = [
   {
     name: "Arnold",
     handle: "Schwarzenegger",
-    avatar: "./assets/arnold.jpg",
+    avatar: require("./assets/arnold.jpg").default,
     date: "Sep 14",
     tweet:
       "The last three or four reps is what makes the muscle grow. This area of pain divides the champion from someone else who is not a champion. That's what most people lack, having the guts to go on and just say they'll go through the pain no matter what happens.",
-    image: "./assets/cat2.jpg",
+    image: require("./assets/cat2.jpg").default,
   },
   {
     name: "Lex Fridman",
     handle: "lexfridman",
-    avatar: "./assets/lex.jpg",
+    avatar: require("./assets/lex.jpg").default,
     date: "Oct 21",
     tweet:
       "When I program, I'm leveraging the work of millions of other people, including code in libraries, compilers, operating systems, computer networks, and the complex web of hardware infrastructure that makes the whole thing run. It's fun being 1 curious human among 8 billion others.",
-    image: "./assets/cat1.avif",
+    image: require("./assets/cat1.avif").default,
   },
   {
     name: "Taylor Swift",
     handle: "taylorswift13",
-    avatar: "./assets/taylor.jpg",
+    avatar: require("./assets/taylor.jpg").default,
     date: "Nov 1",
     tweet:
       "I’m enchanted to announce my next tour: Taylor Swift | The Eras Tour, a journey through the musical eras of my career (past & present!) The first leg of the tour will be in stadiums across the US, with international dates to be announced as soon as we can!",

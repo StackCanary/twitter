@@ -12,7 +12,7 @@ const TweetBox = ({ publishTweet }) => {
     publishTweet({
       name: "Twitter User",
       handle: "twitteruser",
-      avatar: "./assets/catavatar.png",
+      avatar: require("./assets/catavatar.png").default,
       date: "Now",
       tweet: tweet,
     })
@@ -23,7 +23,7 @@ const TweetBox = ({ publishTweet }) => {
   return (
     <div className="tweetbox">
       <div className="tweetbox-entry">
-        <Avatar src="./assets/catavatar.png" />
+        <Avatar src={require("./assets/catavatar.png").default} />
         <input
           className="tweetbox-entry__input"
           placeholder="What's happening?"
