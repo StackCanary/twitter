@@ -1,12 +1,11 @@
 .sidebar__logo svg {
-    color: var(--twitter-blue);
-    padding: 12px;
-    padding-bottom: 8px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 1.5rem;
+  color: var(--twitter-blue);
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
-.sidebar__logo:hover {
-    background-color: var(--twitter-light);
+.sidebar__logo svg:hover {
+  background-color: var(--twitter-light);
 }
